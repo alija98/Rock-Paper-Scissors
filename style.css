@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    color: whitesmoke;
+}
+
+section{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(48, 50, 53);
+}
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+ h2{
+    text-align: center;
+    padding-top: 20px;
+}
+h5{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: normal;
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
+}
+.rock{
+    width: 200px;
+    height: 160px;
+    background-image: url(/img/kamen.PNG);
+    border-radius: 15%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.rock:hover{
+    opacity: 0.8;
+}
+.paper{
+    width: 200px;
+    height: 160px;
+    background-image: url(/img/papir.PNG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.paper:hover{
+    opacity: 0.8;
+}
+.scissors{
+    width: 200px;
+    height: 160px;
+    background-image: url(/img/makaze.PNG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.scissors:hover{
+    opacity: 0.8;
+}
+.rezultat{
+    width: 30%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-size: large;
+    border: 2px solid white;
+}
+.temp{
+    text-align: center;
+    padding-top:35px;
+    font-size: 16px;
+    color: rgb(120, 120, 221);
+}
+.vezanepobjede{
+    color: rgb(236, 173, 150);
+}
+.messages{
+    text-align: center;
+    padding-top: 20px;
+    
+}
